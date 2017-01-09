@@ -221,11 +221,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/draconis/proprietary/vendor/etc/audio_effects.conf:system/vendor/etc/audio_effects.conf \
     vendor/zte/draconis/proprietary/vendor/firmware/a300_pfp.fw:system/vendor/firmware/a300_pfp.fw \
     vendor/zte/draconis/proprietary/vendor/firmware/a300_pm4.fw:system/vendor/firmware/a300_pm4.fw \
-    vendor/zte/draconis/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
-    vendor/zte/draconis/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
-    vendor/zte/draconis/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
-    vendor/zte/draconis/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
-    vendor/zte/draconis/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
     vendor/zte/draconis/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/zte/draconis/proprietary/vendor/lib/hw/sensors.msm8226.so:system/vendor/lib/hw/sensors.msm8226.so \
     vendor/zte/draconis/proprietary/vendor/lib/lib-imscamera.so:system/vendor/lib/lib-imscamera.so \
@@ -233,14 +228,10 @@ PRODUCT_COPY_FILES += \
     vendor/zte/draconis/proprietary/vendor/lib/libacdbmapper.so:system/vendor/lib/libacdbmapper.so \
     vendor/zte/draconis/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
     vendor/zte/draconis/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
-    vendor/zte/draconis/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
     vendor/zte/draconis/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
     vendor/zte/draconis/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
     vendor/zte/draconis/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
     vendor/zte/draconis/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
-    vendor/zte/draconis/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
-    vendor/zte/draconis/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
-    vendor/zte/draconis/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     vendor/zte/draconis/proprietary/vendor/lib/libchromatix_ar0542_common.so:system/vendor/lib/libchromatix_ar0542_common.so \
     vendor/zte/draconis/proprietary/vendor/lib/libchromatix_ar0542_default_video.so:system/vendor/lib/libchromatix_ar0542_default_video.so \
     vendor/zte/draconis/proprietary/vendor/lib/libchromatix_ar0542_liveshot.so:system/vendor/lib/libchromatix_ar0542_liveshot.so \
@@ -309,7 +300,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/draconis/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
     vendor/zte/draconis/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
     vendor/zte/draconis/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
-    vendor/zte/draconis/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
     vendor/zte/draconis/proprietary/vendor/lib/libHevcSwDecoder.so:system/vendor/lib/libHevcSwDecoder.so \
     vendor/zte/draconis/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
     vendor/zte/draconis/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
@@ -317,7 +307,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/draconis/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/zte/draconis/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
     vendor/zte/draconis/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
-    vendor/zte/draconis/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
     vendor/zte/draconis/proprietary/vendor/lib/libloc_ext.so:system/vendor/lib/libloc_ext.so \
     vendor/zte/draconis/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
     vendor/zte/draconis/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
@@ -381,10 +370,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/draconis/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
     vendor/zte/draconis/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     vendor/zte/draconis/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
-    vendor/zte/draconis/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
-    vendor/zte/draconis/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
-    vendor/zte/draconis/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
-    vendor/zte/draconis/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
     vendor/zte/draconis/proprietary/vendor/lib/libscve.so:system/vendor/lib/libscve.so \
     vendor/zte/draconis/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
     vendor/zte/draconis/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
