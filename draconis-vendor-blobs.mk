@@ -318,6 +318,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/draconis/proprietary/vendor/lib/libmmcamera_hdr_morpho_lib.so:system/vendor/lib/libmmcamera_hdr_morpho_lib.so \
     vendor/zte/draconis/proprietary/vendor/lib/libmmcamera_imglib.so:system/vendor/lib/libmmcamera_imglib.so \
     vendor/zte/draconis/proprietary/vendor/lib/libmmcamera_imx135.so:system/vendor/lib/libmmcamera_imx135.so \
+    vendor/zte/draconis/proprietary/vendor/lib/libsubsystem_control.so:system/vendor/lib/libsubsystem_control.so \
     vendor/zte/draconis/proprietary/vendor/lib/libmmcamera_ov5648_oty5f03.so:system/vendor/lib/libmmcamera_ov5648_oty5f03.so \
     vendor/zte/draconis/proprietary/vendor/lib/libmmcamera_ov8825.so:system/vendor/lib/libmmcamera_ov8825.so \
     vendor/zte/draconis/proprietary/vendor/lib/libmmcamera_ov8835.so:system/vendor/lib/libmmcamera_ov8835.so \
